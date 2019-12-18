@@ -1,0 +1,9 @@
+C:\Users\Robin\source\repos\WorldGenerator\WorldGenerator\obj\Debug\WorldGenerator.csprojAssemblyReference.cache
+C:\Users\Robin\source\repos\WorldGenerator\WorldGenerator\obj\Debug\WorldGenerator.Properties.Resources.resources
+C:\Users\Robin\source\repos\WorldGenerator\WorldGenerator\obj\Debug\WorldGenerator.Views.WorldMap.resources
+C:\Users\Robin\source\repos\WorldGenerator\WorldGenerator\obj\Debug\WorldGenerator.csproj.GenerateResource.cache
+C:\Users\Robin\source\repos\WorldGenerator\WorldGenerator\bin\Debug\WorldGenerator.exe.config
+C:\Users\Robin\source\repos\WorldGenerator\WorldGenerator\bin\Debug\WorldGenerator.exe
+C:\Users\Robin\source\repos\WorldGenerator\WorldGenerator\bin\Debug\WorldGenerator.pdb
+C:\Users\Robin\source\repos\WorldGenerator\WorldGenerator\obj\Debug\WorldGenerator.exe
+C:\Users\Robin\source\repos\WorldGenerator\WorldGenerator\obj\Debug\WorldGenerator.pdb

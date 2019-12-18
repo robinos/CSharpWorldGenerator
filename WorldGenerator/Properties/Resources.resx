@@ -1,0 +1,1303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="desert" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\desert\desert.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="desertend" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\desert\desertend.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dryhill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\dryhill\dryhill.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dryhillend" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\dryhill\dryhillend.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="earthmountain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\earthmountain\earthmountain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="earthmountainend" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\earthmountain\earthmountainend.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EdesertNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\desert\edesertne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EdesertNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\desert\edesertnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EdesertSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\desert\edesertse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EdesertSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\desert\edesertsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EdryhillNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\dryhill\edryhillne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EdryhillNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\dryhill\edryhillnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EdryhillSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\dryhill\edryhillse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EdryhillSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\dryhill\edryhillsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EearthmountainNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\earthmountain\eearthmountainne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EearthmountainNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\earthmountain\eearthmountainnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EearthmountainSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\earthmountain\eearthmountainse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EearthmountainSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\earthmountain\eearthmountainsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EforestNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\forest\eforestne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EforestNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\forest\eforestnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EforestSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\forest\eforestse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EforestSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\forest\eforestsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EhillNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\hill\ehillne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EhillNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\hill\ehillnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EhillSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\hill\ehillse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EhillSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\hill\ehillsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EmountainNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\mountain\emountainne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EmountainNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\mountain\emountainnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EmountainSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\mountain\emountainse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EmountainSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\mountain\emountainsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="empty" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\empty\empty.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EplainsNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\plains\eplainsne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EplainsNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\plains\eplainsnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EplainsSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\plains\eplainsse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EplainsSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\plains\eplainssw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EsnowdesertNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowdesert\esnowdesertne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EsnowdesertNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowdesert\esnowdesertnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EsnowdesertSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowdesert\esnowdesertse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EsnowdesertSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowdesert\esnowdesertsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EsnowforestNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowforest\esnowforestne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EsnowforestNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowforest\esnowforestnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EsnowforestSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowforest\esnowforestse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EsnowforestSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowforest\esnowforestsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EsnowhillNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowhill\esnowhillne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EsnowhillNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowhill\esnowhillnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EsnowhillSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowhill\esnowhillse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EsnowhillSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowhill\esnowhillsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EsnowmountainNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowmountain\esnowmountainne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EsnowmountainNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowmountain\esnowmountainnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EsnowmountainSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowmountain\esnowmountainse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EsnowmountainSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowmountain\esnowmountainsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EtundraNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\tundra\etundrane.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EtundraNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\tundra\etundranw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EtundraSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\tundra\etundrase.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EtundraSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\tundra\etundrasw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EverdantforestNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\verdantforest\everdantforestne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EverdantforestNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\verdantforest\everdantforestnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EverdantforestSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\verdantforest\everdantforestse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EverdantforestSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\verdantforest\everdantforestsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="forest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\forest\forest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="forestend" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\forest\forestend.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\hill\hill.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hillend" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\hill\hillend.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\ice\ice.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mountain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\mountain\mountain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mountainend" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\mountain\mountainend.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NdesertE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\desert\ndeserte.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NdesertNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\desert\ndesertne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NdesertNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\desert\ndesertnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NdesertS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\desert\ndeserts.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NdesertSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\desert\ndesertse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NdesertSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\desert\ndesertsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NdesertW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\desert\ndesertw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NdryhillE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\dryhill\ndryhille.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NdryhillNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\dryhill\ndryhillne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NdryhillNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\dryhill\ndryhillnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NdryhillS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\dryhill\ndryhills.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NdryhillSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\dryhill\ndryhillse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NdryhillSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\dryhill\ndryhillsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NdryhillW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\dryhill\ndryhillw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NearthmountainE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\earthmountain\nearthmountaine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NearthmountainNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\earthmountain\nearthmountainne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NearthmountainNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\earthmountain\nearthmountainnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NearthmountainS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\earthmountain\nearthmountains.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NearthmountainSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\earthmountain\nearthmountainse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NearthmountainSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\earthmountain\nearthmountainsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NearthmountainW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\earthmountain\nearthmountainw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEdesertNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\desert\nedesertnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEdesertSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\desert\nedesertse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEdesertSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\desert\nedesertsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEdryhillNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\dryhill\nedryhillnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEdryhillSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\dryhill\nedryhillse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEdryhillSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\dryhill\nedryhillsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEearthmountainNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\earthmountain\neearthmountainnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEearthmountainSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\earthmountain\neearthmountainse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEearthmountainSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\earthmountain\neearthmountainsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEforestNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\forest\neforestnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEforestSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\forest\neforestse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEforestSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\forest\neforestsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEhillNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\hill\nehillnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEhillSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\hill\nehillse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEhillSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\hill\nehillsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEmountainNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\mountain\nemountainnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEmountainSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\mountain\nemountainse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEmountainSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\mountain\nemountainsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEplainsNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\plains\neplainsnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEplainsSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\plains\neplainsse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEplainsSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\plains\neplainssw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEsnowdesertNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowdesert\nesnowdesertnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEsnowdesertSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowdesert\nesnowdesertse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEsnowdesertSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowdesert\nesnowdesertsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEsnowforestNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowforest\nesnowforestnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEsnowforestSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowforest\nesnowforestse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEsnowforestSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowforest\nesnowforestsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEsnowhillNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowhill\nesnowhillnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEsnowhillSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowhill\nesnowhillse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEsnowhillSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowhill\nesnowhillsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEsnowmountainNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowmountain\nesnowmountainnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEsnowmountainSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowmountain\nesnowmountainse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEsnowmountainSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowmountain\nesnowmountainsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEtundraNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\tundra\netundranw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEtundraSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\tundra\netundrase.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEtundraSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\tundra\netundrasw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEverdantforestNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\verdantforest\neverdantforestnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEverdantforestSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\verdantforest\neverdantforestse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NEverdantforestSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\verdantforest\neverdantforestsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NforestE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\forest\nforeste.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NforestE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\verdantforest\nforeste.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NforestNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\forest\nforestne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NforestNE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\verdantforest\nforestne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NforestNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\forest\nforestnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NforestNW1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\verdantforest\nforestnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NforestS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\forest\nforests.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NforestS1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\verdantforest\nforests.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NforestSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\forest\nforestse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NforestSE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\verdantforest\nforestse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NforestSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\forest\nforestsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NforestSW1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\verdantforest\nforestsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NforestW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\forest\nforestw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NforestW1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\verdantforest\nforestw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NhillE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\hill\nhille.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NhillNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\hill\nhillne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NhillNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\hill\nhillnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NhillS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\hill\nhills.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NhillSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\hill\nhillse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NhillSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\hill\nhillsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NhillW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\hill\nhillw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NmountainE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\mountain\nmountaine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NmountainNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\mountain\nmountainne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NmountainNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\mountain\nmountainnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NmountainS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\mountain\nmountains.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NmountainSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\mountain\nmountainse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NmountainSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\mountain\nmountainsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NmountainW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\mountain\nmountainw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NplainsE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\plains\nplainse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NplainsNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\plains\nplainsne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NplainsNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\plains\nplainsnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NplainsS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\plains\nplainss.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NplainsSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\plains\nplainsse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NplainsSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\plains\nplainssw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NplainsW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\plains\nplainsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NsnowdesertE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowdesert\nsnowdeserte.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NsnowdesertNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowdesert\nsnowdesertne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NsnowdesertNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowdesert\nsnowdesertnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NsnowdesertS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowdesert\nsnowdeserts.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NsnowdesertSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowdesert\nsnowdesertse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NsnowdesertSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowdesert\nsnowdesertsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NsnowdesertW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowdesert\nsnowdesertw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NsnowforestE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowforest\nsnowforeste.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NsnowforestNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowforest\nsnowforestne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NsnowforestNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowforest\nsnowforestnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NsnowforestS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowforest\nsnowforests.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NsnowforestSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowforest\nsnowforestse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NsnowforestSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowforest\nsnowforestsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NsnowforestW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowforest\nsnowforestw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NsnowhillE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowhill\nsnowhille.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NsnowhillNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowhill\nsnowhillne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NsnowhillNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowhill\nsnowhillnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NsnowhillS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowhill\nsnowhills.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NsnowhillSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowhill\nsnowhillse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NsnowhillSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowhill\nsnowhillsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NsnowhillW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowhill\nsnowhillw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NsnowmountainE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowmountain\nsnowmountaine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NsnowmountainNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowmountain\nsnowmountainne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NsnowmountainNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowmountain\nsnowmountainnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NsnowmountainS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowmountain\nsnowmountains.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NsnowmountainSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowmountain\nsnowmountainse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NsnowmountainSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowmountain\nsnowmountainsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NsnowmountainW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowmountain\nsnowmountainw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NtundraE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\tundra\ntundrae.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NtundraNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\tundra\ntundrane.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NtundraNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\tundra\ntundranw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NtundraS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\tundra\ntundras.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NtundraSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\tundra\ntundrase.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NtundraSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\tundra\ntundrasw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NtundraW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\tundra\ntundraw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NWdesertSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\desert\nwdesertsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NWdryhillSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\dryhill\nwdryhillse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NWdryhillSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\dryhill\nwdryhillsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NWearthmountainSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\earthmountain\nwearthmountainse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NWearthmountainSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\earthmountain\nwearthmountainsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NWforestSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\forest\nwforestse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NWforestSE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\verdantforest\nwforestse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NWforestSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\forest\nwforestsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NWforestSW1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\verdantforest\nwforestsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NWhillSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\hill\nwhillse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NWhillSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\hill\nwhillsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NWmountainSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\mountain\nwmountainse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NWmountainSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\mountain\nwmountainsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NWplainsSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\plains\nwplainsse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NWplainsSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\plains\nwplainssw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NWsnowdesertSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowdesert\nwsnowdesertse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NWsnowdesertSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowdesert\nwsnowdesertsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NWsnowforestSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowforest\nwsnowforestse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NWsnowforestSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowforest\nwsnowforestsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NWsnowhillSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowhill\nwsnowhillse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NWsnowhillSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowhill\nwsnowhillsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NWsnowmountainSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowmountain\nwsnowmountainse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NWsnowmountainSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowmountain\nwsnowmountainsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NWtundraSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\tundra\nwtundrase.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NWtundraSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\tundra\nwtundrasw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ocean" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\ocean\ocean.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plains" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\plains\plains.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plainsend" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\plains\plainsend.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SdesertE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\desert\sdeserte.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SdesertNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\desert\sdesertne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SdesertNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\desert\sdesertnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SdesertSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\desert\sdesertse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SdesertSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\desert\sdesertsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SdesertW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\desert\sdesertw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SdryhillE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\dryhill\sdryhille.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SdryhillNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\dryhill\sdryhillne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SdryhillNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\dryhill\sdryhillnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SdryhillSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\dryhill\sdryhillse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SdryhillSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\dryhill\sdryhillsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SdryhillW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\dryhill\sdryhillw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SearthmountainE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\earthmountain\searthmountaine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SearthmountainNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\earthmountain\searthmountainne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SearthmountainNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\earthmountain\searthmountainnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SearthmountainSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\earthmountain\searthmountainse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SearthmountainSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\earthmountain\searthmountainsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SearthmountainW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\earthmountain\searthmountainw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SEdesertNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\desert\sedesertnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SEdesertSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\desert\sedesertsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SEdryhillSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\dryhill\sedryhillsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SEearthmountainSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\earthmountain\seearthmountainsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SEforestSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\forest\seforestsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SEforestSW1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\verdantforest\seforestsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SEhillSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\hill\sehillsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SEmountainSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\mountain\semountainsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SEplainsSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\plains\seplainssw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SEsnowdesertSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowdesert\sesnowdesertsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SEsnowforestSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowforest\sesnowforestsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SEsnowhillSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowhill\sesnowhillsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SEsnowmountainSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowmountain\sesnowmountainsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SEtundraSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\tundra\setundrasw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SforestE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\forest\sforeste.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SforestE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\verdantforest\sforeste.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SforestNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\forest\sforestne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SforestNE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\verdantforest\sforestne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SforestNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\forest\sforestnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SforestNW1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\verdantforest\sforestnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SforestSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\forest\sforestse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SforestSE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\verdantforest\sforestse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SforestSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\forest\sforestsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SforestSW1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\verdantforest\sforestsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SforestW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\forest\sforestw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SforestW1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\verdantforest\sforestw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShillE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\hill\shille.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShillNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\hill\shillne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShillNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\hill\shillnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShillSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\hill\shillse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShillSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\hill\shillsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShillW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\hill\shillw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SmountainE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\mountain\smountaine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SmountainNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\mountain\smountainne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SmountainNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\mountain\smountainnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SmountainSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\mountain\smountainse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SmountainSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\mountain\smountainsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SmountainW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\mountain\smountainw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snowdesert" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowdesert\snowdesert.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snowdesertend" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowdesert\snowdesertend.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snowforest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowforest\snowforest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snowforestend" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowforest\snowforestend.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snowhill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowhill\snowhill.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snowhillend" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowhill\snowhillend.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snowmountain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowmountain\snowmountain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snowmountainend" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowmountain\snowmountainend.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SplainsE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\plains\splainse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SplainsNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\plains\splainsne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SplainsNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\plains\splainsnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SplainsSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\plains\splainsse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SplainsSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\plains\splainssw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SplainsW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\plains\splainsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SsnowdesertE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowdesert\ssnowdeserte.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SsnowdesertNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowdesert\ssnowdesertne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SsnowdesertNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowdesert\ssnowdesertnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SsnowdesertSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowdesert\ssnowdesertse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SsnowdesertSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowdesert\ssnowdesertsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SsnowdesertW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowdesert\ssnowdesertw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SsnowforestE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowforest\ssnowforeste.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SsnowforestNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowforest\ssnowforestne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SsnowforestNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowforest\ssnowforestnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SsnowforestSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowforest\ssnowforestse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SsnowforestSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowforest\ssnowforestsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SsnowforestW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowforest\ssnowforestw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SsnowhillE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowhill\ssnowhille.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SsnowhillNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowhill\ssnowhillne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SsnowhillNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowhill\ssnowhillnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SsnowhillSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowhill\ssnowhillse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SsnowhillSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowhill\ssnowhillsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SsnowhillW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowhill\ssnowhillw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SsnowmountainE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowmountain\ssnowmountaine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SsnowmountainNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowmountain\ssnowmountainne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SsnowmountainNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowmountain\ssnowmountainnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SsnowmountainSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowmountain\ssnowmountainse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SsnowmountainSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowmountain\ssnowmountainsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SsnowmountainW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowmountain\ssnowmountainw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StundraE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\tundra\stundrae.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StundraNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\tundra\stundrane.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StundraNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\tundra\stundranw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StundraSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\tundra\stundrase.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StundraSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\tundra\stundrasw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StundraW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\tundra\stundraw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tundra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\tundra\tundra.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tundraend" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\tundra\tundraend.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="verdantforest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\verdantforest\verdantforest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="verdantforestend" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\verdantforest\verdantforestend.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="water" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Content\water\water.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WdesertE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\desert\wdeserte.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WdesertNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\desert\wdesertne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WdesertNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\desert\wdesertnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WdesertSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\desert\wdesertse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WdesertSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\desert\wdesertsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WdryhillE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\dryhill\wdryhille.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WdryhillNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\dryhill\wdryhillne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WdryhillNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\dryhill\wdryhillnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WdryhillSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\dryhill\wdryhillse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WdryhillSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\dryhill\wdryhillsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WearthmountainE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\earthmountain\wearthmountaine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WearthmountainNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\earthmountain\wearthmountainne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WearthmountainNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\earthmountain\wearthmountainnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WearthmountainSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\earthmountain\wearthmountainse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WearthmountainSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\earthmountain\wearthmountainsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WforestE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\forest\wforeste.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WforestE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\verdantforest\wforeste.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WforestNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\forest\wforestne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WforestNE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\verdantforest\wforestne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WforestNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\forest\wforestnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WforestNW1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\verdantforest\wforestnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WforestSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\forest\wforestse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WforestSE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\verdantforest\wforestse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WforestSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\forest\wforestsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WforestSW1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\verdantforest\wforestsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhillE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\hill\whille.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhillNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\hill\whillne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhillNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\hill\whillnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhillSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\hill\whillse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhillSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\hill\whillsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WmountainE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\mountain\wmountaine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WmountainNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\mountain\wmountainne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WmountainNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\mountain\wmountainnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WmountainSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\mountain\wmountainse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WmountainSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\mountain\wmountainsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WplainsE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\plains\wplainse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WplainsNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\plains\wplainsne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WplainsNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\plains\wplainsnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WplainsSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\plains\wplainsse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WplainsSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\plains\wplainssw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WsnowdesertE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowdesert\wsnowdeserte.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WsnowdesertNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowdesert\wsnowdesertne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WsnowdesertNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowdesert\wsnowdesertnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WsnowdesertSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowdesert\wsnowdesertse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WsnowdesertSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowdesert\wsnowdesertsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WsnowforestE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowforest\wsnowforeste.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WsnowforestNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowforest\wsnowforestne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WsnowforestNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowforest\wsnowforestnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WsnowforestSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowforest\wsnowforestse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WsnowforestSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowforest\wsnowforestsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WsnowhillE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowhill\wsnowhille.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WsnowhillNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowhill\wsnowhillne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WsnowhillNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowhill\wsnowhillnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WsnowhillSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowhill\wsnowhillse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WsnowhillSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowhill\wsnowhillsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WsnowmountainE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowmountain\wsnowmountaine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WsnowmountainNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowmountain\wsnowmountainne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WsnowmountainNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowmountain\wsnowmountainnw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WsnowmountainSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowmountain\wsnowmountainse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WsnowmountainSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\snowmountain\wsnowmountainsw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WtundraE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\tundra\wtundrae.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WtundraNE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\tundra\wtundrane.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WtundraNW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\tundra\wtundranw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WtundraSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\tundra\wtundrase.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WtundraSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\content\tundra\wtundrasw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
